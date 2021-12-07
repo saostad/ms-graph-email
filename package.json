@@ -92,6 +92,7 @@
     "wait-on": "^6.0.0"
   },
   "dependencies": {
+    "@azure/msal-node": "^1.4.0",
     "dotenv": "^10.0.0",
     "fast-node-logger": "^2.0.0",
     "keytar": "^7.7.0"
