@@ -1,5 +1,21 @@
 # MS Graph API send mail with client credential example
 
+# How to use
+
+1. clone the repository
+1. add a `.env` file in root directory of your project with content below:
+
+```
+# Credentials
+TENANT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Endpoints
+AAD_ENDPOINT=https://login.microsoftonline.com/
+GRAPH_ENDPOINT=https://graph.microsoft.com/
+```
+
 ## Resources that I used
 
 - https://github.com/microsoftgraph/msgraph-sdk-javascript/tree/c4628151c39c4922e334bcd68f23580bf453cbee#via-npm
