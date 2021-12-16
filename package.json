@@ -1,21 +1,16 @@
 {
-  "name": "create-ts-starter",
-  "version": "4.4.8",
-  "description": "Production ready starter for typescript node project",
+  "name": "ms-graph-send-mail-example",
+  "version": "0.0.1",
+  "description": "MS Graph API send mail with client credential example",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/saostad/node-typescript-starter.git"
-  },
   "main": "dist-esm/index.js",
   "types": "dist-esm/index.d.ts",
-  "bin": "bin/setup.js",
   "exports": {
     "import": "./dist-esm/index.js",
     "require": "./dist-cjs/index.js"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "scripts": {
     "format": "prettier --check \"src/**/*.ts\" --write",
@@ -46,12 +41,6 @@
     "start": "npm-run-all -p -c tsc:watch dev",
     "prod": "set NODE_ENV=production&& node  --es-module-specifier-resolution=node --trace-warnings --unhandled-rejections=strict dist-esm/index.js"
   },
-  "keywords": [
-    "node",
-    "typescript",
-    "boilerplate",
-    "starter"
-  ],
   "author": "Saeid Ostad",
   "license": "MIT",
   "jest": {
